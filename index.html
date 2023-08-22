@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <h1 style="margin: 10px;">Trending Products</h1>
+    <section>
+        <main>
+            <div class="img">
+                <img src="https://m.media-amazon.com/images/I/41YG6pYMdEL._SL160_.jpg" alt="img">
+            </div>
+            <div class="item">
+                <p class="desc">Humble Crew Kids Plastic</p>
+                <p>8.7</p>
+            </div>
+            <div class="price">
+                $57.44
+            </div>
+            <div class="btn">
+                <button class="btn-amazon">Amazon</button>
+                <button class="btn-options">All Buying Options</button>
+            </div>
+        </main>
+        <main>
+            <div class="img">
+                <img src="https://m.media-amazon.com/images/I/31Weh14aFAL._SL160_.jpg" alt="">
+            </div>
+            <div class="item">
+                <p class="desc">KitchenAid KHM512IC 5-Speed Ultra Power Hand Mixer</p>
+                <p>8.7</p>
+            </div>
+            <div class="price">
+                $57.44
+            </div>
+            <div class="btn">
+                <button class="btn-amazon">Amazon</button>
+                <button class="btn-options">All Buying Options</button>
+            </div>
+        </main>
+        <main>
+            <div class="img">
+                <img src="https://m.media-amazon.com/images/I/31Weh14aFAL._SL160_.jpg" alt="">
+            </div>
+            <div class="item">
+                <p class="desc">Instant Pot 60 DUO Plus 6 Qt 9-in-1 Multi-Use Programmable Pressure</p>
+                <p>8.7</p>
+            </div>
+            <div class="price">
+                $57.44
+            </div>
+            <div class="btn">
+                <button class="btn-amazon">Amazon</button>
+                <button class="btn-options">All Buying Options</button>
+            </div>
+        </main>
+        <main>
+            <div class="img">
+                <img src="https://m.media-amazon.com/images/I/41mKYCkDCCL._SL160_.jpg" alt="">
+            </div>
+            <div class="item">
+                <p class="desc">madesmart 2-Tier Organizer with Dividers Slide-Out Baskets with Handles</p>
+                <p>8.7</p>
+            </div>
+            <div class="price">
+                $57.44
+            </div>
+            <div class="btn">
+                <button class="btn-amazon">Amazon</button>
+                <button class="btn-options">All Buying Options</button>
+            </div>
+        </main>
+        <main>
+            <div class="img">
+                <img src="https://m.media-amazon.com/images/I/41OEVtKyTAL._SL160_.jpg" alt="">
+            </div>
+            <div class="item">
+                <p class="desc">Elite Gourmet ECT-3100 Maxi-Matic 4-Slice Long Toaster 6 Toasting Levels & Extra Wide Slots</p>
+                <p>8.7</p>
+            </div>
+            <div class="price">
+                $57.44
+            </div>
+            <div class="btn">
+                <button class="btn-amazon">Amazon</button>
+                <button class="btn-options">All Buying Options</button>
+            </div>
+        </main>
+        <main>
+            <div class="img">
+                <img src="https://m.media-amazon.com/images/I/31ZqTiC1zzL._SL160_.jpg" alt="">
+            </div>
+            <div class="item">
+                <p class="desc">YETI Rambler 12 oz. Colster Slim Can Insulator for the Slim Hard Seltzer Cans, Seafoam</p>
+                <p>8.7</p>
+            </div>
+            <div class="price">
+                $57.44
+            </div>
+            <div class="btn">
+                <button class="btn-amazon">Amazon</button>
+                <button class="btn-options">All Buying Options</button>
+            </div>
+        </main>
+        <main>
+            <div class="img">
+                <img src="https://m.media-amazon.com/images/I/41x74kiNTyS._SL160_.jpg" alt="">
+            </div>
+            <div class="item">
+                <p class="desc">All-new Fire HD 10 tablet, 10.1", 1080p Full HD, 64 GB, latest model</p>
+                <p>8.7</p>
+            </div>
+            <div class="price">
+                $57.44
+            </div>
+            <div class="btn">
+                <button class="btn-amazon">Amazon</button>
+                <button class="btn-options">All Buying Options</button>
+            </div>
+        </main>
+        <main>
+            <div class="img">
+                <img src="https://m.media-amazon.com/images/I/31nwObmyXjS._SL160_.jpg" alt="">
+            </div>
+            <div class="item">
+                <p class="desc">Dreo 42 Inch Tower Fan with Remote. Floor Fan Oscillating 90</p>
+                <p>8.7</p>
+            </div>
+            <div class="price">
+                $57.44
+            </div>
+            <div class="btn">
+                <button class="btn-amazon">Amazon</button>
+                <button class="btn-options">All Buying Options</button>
+            </div>
+        </main>
+    </section>
+    <button class="external-btn">Show more</button>
+    <script>
+        desc_elem=document.getElementsByClassName("desc");
+        for(let i=0;i<desc_elem.length;i++) {
+            const expr = "..."
+            const h = desc_elem[i].innerHTML;
+            if(h.length>=25) {
+                desc_elem[i].innerHTML = h.substring(0,40) + expr;
+            }
+        };
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,740 @@
+@import url("https://fonts.googleapis.com/css2?family=Bentham&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Smooch+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 100%;
+  min-width: 600px;
+  background-color: #0b1d26;
+  font-family: "Bentham", serif;
+  overflow-x: hidden;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  left: 0px;
+  top: -500px;
+  right: 0px;
+  z-index: 0;
+}
+
+.bg-gradient1 {
+  background: linear-gradient(
+    330deg,
+    rgba(11, 29, 38, 0) 10%,
+    #0b1d26 150%
+  );
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+.bg-gradient2 {
+  background: linear-gradient(
+  to bottom,transparent 80% ,#0b1d26 100%
+  );
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+
+#header-main {
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+}
+
+.header {
+  height: 40px;
+  width: 120px;
+  font-family: "Bentham", serif;
+  padding-left: 0px;
+  font-size: 32px;
+  color: white;
+  letter-spacing: 0.01em;
+  /* background-color: #fbd784; */
+  margin-left: 2%;
+}
+
+#nav-bar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  /* background-color: orange; */
+  width: 30%;
+  height: 100px;
+}
+
+#nav-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 2px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  width: 100%;
+  /* background-color: blue; */
+  height: 90px;
+}
+
+#nav-bar ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: violet; */
+  width: 100%;
+  height: 30px;
+  margin-top: 10%;
+}
+
+#account {
+  width: 8%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-right: 1%;
+  /* background-color: blue; */
+  padding-top: 22px;
+}
+
+#user {
+  padding-right: 10px;
+  /* height: 50px;
+  width: 50px; */
+  /* background-color: aqua; */
+}
+
+#account a {
+  font-size: 17px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 600;
+  /* color: black; */
+}
+
+/* ------------------social ------------------------------ */
+
+#social {
+  position: fixed;
+}
+
+#social p {
+  position: absolute;
+  top: 270px;
+  color: white;
+  font-family: "Nanum Gothic", sans-serif;
+  width: 60px;
+  height: 15px;
+  transform: rotate(90deg);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+#social a:nth-child(2) {
+  position: absolute;
+  width: 13.4px;
+  height: 13.4px;
+  left: 23px;
+  top: 330px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#social a:nth-child(3) {
+  position: absolute;
+  width: 13.4px;
+  height: 13.4px;
+  left: 23px;
+  top: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* -------------------------------- main title ----------------------  */
+
+#main-title {
+  left: 50%;
+}
+
+#main-title .lines {
+  position: absolute;
+  width: 48px;
+  height: 1.34px;
+  top: 211px;
+  left: 335px;
+  color: #fbd784;
+}
+
+#main-title p {
+  position: absolute;
+  top: 192px;
+  left: 405px;
+  width: 154px;
+  height: 15px;
+  color: #fbd784;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+#main-title h1 {
+  position: absolute;
+  width: 637px;
+  top: 201px;
+  left: 335px;
+  height: 134px;
+  color: white;
+  font-weight: 400;
+  font-size: 4vw;
+  line-height: 67px;
+  text-transform: capitalize;
+}
+
+#main-title h6 {
+  position: absolute;
+  width: 134px;
+  height: 13.4px;
+  color: white;
+  top: 369px;
+  left: 335px;
+  font-size: 1vw;
+  font-weight: 200;
+}
+
+#down {
+  position: absolute;
+  width: 134px;
+  height: 13px;
+  color: white;
+  top: 405px;
+  left: 415px;
+}
+
+/*       Main Content   #1          */
+
+.numbers {
+  width: 161px;
+  height: 161px;
+  font-weight: 700;
+  font-size: 161px;
+  line-height: 161px;
+  font-family: "Nanum Gothic", sans-serif;
+  color: white;
+  opacity: 0.1;
+}
+
+#number01 {
+  position: absolute;
+  left: 153px;
+  right: 972px;
+  top: 871px;
+  bottom: 61.39%;
+}
+
+.lines {
+  position: absolute;
+  width: 48px;
+  height: 1.34px;
+  left: 264px;
+  top: 1069px;
+  background: #fbd784;
+}
+
+.card p:nth-child(3) {
+  position: absolute;
+  width: 122px;
+  height: 15px;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-family: "Nanum Gothic", sans-serif;
+  top: 1045px;
+  left: 325px;
+  color: #fbd784;
+}
+
+.card h2 {
+  position: absolute;
+  left: 261px;
+  top: 1072px;
+  width: 372px;
+  height: 103px;
+  font-weight: 100;
+  font-size: 43px;
+  line-height: 52px;
+  font-family: "Bentham", serif;
+  color: white;
+}
+
+#main-1 {
+  position: absolute;
+  width: 423px;
+  height: 107px;
+  left: 261px;
+  top: 1217px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 21px;
+  color: white;
+}
+
+#read-more1 {
+  position: absolute;
+  left: 261px;
+  top: 1340px;
+  width: 58.29px;
+  height: 15px;
+  font-size: 12px;
+  line-height: 15px;
+  background-color: gray;
+  border-radius: 3.35px;
+  text-align: center;
+}
+
+#arrow1 {
+  position: absolute;
+  display: flex;
+  width: 11px;
+  height: 16px;
+  top: 1351px;
+  left: 335px;
+  background: none;
+  border-radius: 3.35px;
+  align-items: center;
+}
+
+#image1 {
+  position: absolute;
+  left: 60%;
+  top: 950px;
+  bottom: 0%;
+  max-width: 100%;
+  width: 373px;
+  height: 500px;
+  margin-right: 5%;
+}
+/*    Main Content #2      */
+
+#number02 {
+  position: absolute;
+  right: 526px;
+  top: 1541px;
+}
+
+.lines2 {
+  position: absolute;
+  width: 48px;
+  height: 1.34px;
+  right: 529px;
+  top: 1725px;
+  background: #fbd784;
+}
+
+.card2 p:first-child {
+  position: absolute;
+  width: 174px;
+  height: 15px;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-family: "Nanum Gothic", sans-serif;
+  top: 1726px;
+  right: 529px;
+  color: #fbd784;
+}
+
+.card2 h2 {
+  position: absolute;
+  right: 205px;
+  top: 1709px;
+  width: 371.85px;
+  height: 103px;
+  font-weight: 100;
+  font-size: 43px;
+  line-height: 52px;
+  font-family: "Bentham", serif;
+  color: white;
+}
+
+#main-2 {
+  position: absolute;
+  width: 423px;
+  height: 107px;
+  right: 153px;
+  top: 1859px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 21px;
+  color: white;
+}
+
+#read-more2 {
+  position: absolute;
+  right: 520px;
+  top: 1980px;
+  width: 58px;
+  height: 15px;
+  font-size: 12px;
+  line-height: 15px;
+  background-color: gray;
+  border-radius: 3.4px;
+  text-align: center;
+}
+
+#arrow2 {
+  position: absolute;
+  display: flex;
+  width: 11px;
+  height: 16px;
+  top: 1992px;
+  right: 492px;
+  background: none;
+  border-radius: 3.4px;
+  align-items: center;
+}
+
+#image2 {
+  position: absolute;
+  left: 10%;
+  top: 1581px;
+  width: 379px;
+  height: 500px;
+  margin-left: 5%;
+}
+
+/*      Main Content 3*/
+
+#number03 {
+  position: absolute;
+  left: 153px;
+  top: 2178px;
+}
+
+.lines3 {
+  position: absolute;
+  width: 48px;
+  height: 1.34px;
+  left: 254px;
+  top: 2365px;
+  background: #fbd784;
+}
+
+.card3 p:nth-child(3) {
+  position: absolute;
+  width: 251px;
+  height: 15px;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-family: "Nanum Gothic", sans-serif;
+  top: 2346px;
+  left: 325px;
+  color: #fbd784;
+}
+
+.card3 h2 {
+  position: absolute;
+  left: 254px;
+  top: 2352px;
+  width: 372px;
+  height: 103px;
+  font-weight: 100;
+  font-size: 43px;
+  line-height: 52px;
+  font-family: "Bentham", serif;
+  color: white;
+}
+
+#main-3 {
+  position: absolute;
+  width: 423px;
+  height: auto;
+  left: 254px;
+  top: 2496px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 21px;
+  color: white;
+}
+
+#read-more3 {
+  position: absolute;
+  left: 254px;
+  top: 2620px;
+  width: 58px;
+  height: 15px;
+  font-size: 12px;
+  line-height: 15px;
+  background-color: gray;
+  border-radius: 3.4px;
+  text-align: center;
+}
+
+#arrow3 {
+  position: absolute;
+  display: flex;
+  width: 11px;
+  height: 16px;
+  top: 2631px;
+  left: 335px;
+  background: none;
+  border-radius: 3.4px;
+  align-items: center;
+}
+
+#image3 {
+  position: absolute;
+  left: 60%;
+  top: 2198px;
+  width: 379px;
+  height: 500px;
+  margin-right: 5%;
+}
+
+/*           footer          */
+
+.footer {
+  position: sticky;
+  width: 980px;
+  height: 188px;
+  left: 153px;
+  margin-top: 2814px;
+}
+
+#title {
+  position: absolute;
+  height: 25px;
+  width: 72px;
+  font-family: "Bentham", serif;
+  top: -23px;
+  left: 0px;
+  font-size: 21px;
+  color: white;
+  letter-spacing: 0.01em;
+}
+
+#ft {
+  position: absolute;
+  width: 203px;
+  height: 43px;
+  top: 20px;
+  font-family: "Nanum Gothic", sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 21px;
+}
+
+#Copyright {
+  position: absolute;
+  width: 232px;
+  height: 21px;
+  left: 4.06px;
+  top: 141px;
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 21px;
+  opacity: 0.5;
+}
+
+.h5first {
+  position: absolute;
+  width: 129px;
+  height: 21px;
+  color: #fbd784;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 21px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+#links {
+  position: absolute;
+  width: 129px;
+  height: 21px;
+  left: 600px;
+  top: -23px;
+  text-decoration: none;
+}
+
+#first {
+  position: absolute;
+  width: 70px;
+  height: 21px;
+  left: 0px;
+  top: 56px;
+  list-style: none;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 21px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+a,
+a:link,
+a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #fbd784;
+  border-radius: 3.4px;
+  color: black;
+}
+
+#nav-bar-hide a {
+  background-color: red;
+  height: 30px;
+  width: 50px;
+}
+
+#second {
+  position: absolute;
+  width: 123px;
+  height: 21px;
+  left: 0px;
+  top: 84px;
+  list-style: none;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 21px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+#third {
+  position: absolute;
+  width: 66px;
+  height: 21px;
+  left: 0px;
+  top: 114px;
+  list-style: none;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 21px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+#fourth {
+  position: absolute;
+  width: 63px;
+  height: 21px;
+  left: 0px;
+  top: 143px;
+  list-style: none;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 21px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+#fifth {
+  position: absolute;
+  width: 72px;
+  height: 21px;
+  left: 0px;
+  top: 174px;
+  list-style: none;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 21px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.h5second {
+  position: absolute;
+  left: 268px;
+  top: 0px;
+  width: 129px;
+  height: 21px;
+  color: #fbd784;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 21px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+#first1 {
+  position: absolute;
+  width: 68px;
+  height: 21px;
+  left: 270px;
+  top: 56px;
+  list-style: none;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 21px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+#second2 {
+  position: absolute;
+  width: 123px;
+  height: 21px;
+  left: 270px;
+  top: 84px;
+  list-style: none;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 21px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+#third3 {
+  position: absolute;
+  width: 66px;
+  height: 21px;
+  left: 270px;
+  top: 114px;
+  list-style: none;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 21px;
+  font-family: "Nanum Gothic", sans-serif;
+}

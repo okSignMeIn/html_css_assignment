@@ -1,0 +1,103 @@
+:root {
+    --clrBlue: #007bff
+}
+* {
+    box-sizing: border-box;
+    font-family: 'DM Sans',sans-serif;
+    margin: 0;
+    background-color: rgb(244, 244, 244);
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main {
+    background-color: #fff;
+    border-radius: 7px;
+    margin: 10px;
+    width: 300px;
+    height: 255px;
+}
+div {
+    margin: 10px 10px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+img {
+    max-width: 80px;
+    max-height: 80px;
+}
+.img {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    background-color: #fff;
+}
+.btn {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+.btn-amazon {
+    height: 32px;
+    width: 90px;
+    font-weight: 600;
+    background-color: var(--clrBlue);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.btn-options {
+    flex: 1;
+    height: 32px;
+    font-weight: normal;
+    background-color: #fff;
+    color: var(--clrBlue);
+    border: 1px solid var(--clrBlue);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.desc {
+    max-width: 14em;
+    max-height: 5vh;
+    background-color: #fff;
+}
+.external-btn {
+    margin: auto;
+    margin-top: 20px;
+    flex: 1;
+    padding: 10px;
+    height: 32px;
+    font-weight: bold;
+    background-color: var(--clrBlue);
+    color: #fff;
+    border: 1px solid var(--clrBlue);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.item {
+    background-color: #fff;
+    height: 50px;
+}
+p {
+    background-color: #fff;
+}
+.price {
+    font-weight: bolder;
+}
+button:hover {
+    scale: 1.1;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
